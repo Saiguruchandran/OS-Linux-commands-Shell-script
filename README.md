@@ -41,12 +41,16 @@ s.n. dasgupta
 ```
 ### Display the content of the files
 cat < file1
-## OUTPUT
+## OUTPUT 
+
+![one](./image/1.png)
 
 
 
 cat < file2
 ## OUTPUT
+ 
+ ![two](./image/2.png)
 
 
 # Comparing Files
