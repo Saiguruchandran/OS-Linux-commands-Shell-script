@@ -632,6 +632,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ## OUTPUT
 ![sixtyfour](./image/64.png)
+
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -679,8 +680,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
-
+##  OUTPUT
+![sixtyfive](./image/65.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -709,7 +710,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-
+![sixtysix](./image/66.png)
 # testing compound comparisons
 cat> ifcompound.sh 
 ```bash
@@ -724,7 +725,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![sixtyseven](./image/67.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -834,7 +835,9 @@ done
 ```
 $ chmod 755 forin1.sh
 
-## OUTPUT
+##  OUTPUT
+![sixtyeight](./image/68.png) 
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -856,7 +859,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![sixtynine](./image/69.png) 
 
 cat forctype.sh 
 ```bash
@@ -869,8 +872,8 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
-## OUTPUT
-
+ ##  OUTPUT
+![seventy](./image/70.png)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -883,7 +886,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![seventyone](./image/71.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -902,7 +905,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ ![seventytwo](./image/72.png)
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -918,7 +921,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
+![seventythree](./image/73.png)
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
@@ -943,7 +946,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![seventyfour](./image/74.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
