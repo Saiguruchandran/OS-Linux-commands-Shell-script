@@ -279,39 +279,39 @@ sed -n -e '/tom/,/Joe/p' file23
 seq 10 
 ## OUTPUT
 
-
+![thirtysix](./image/36.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![thirtyseven](./image/37.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-
+![thirtyeight](./image/38.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-
+![thirtynine](./image/39.png)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![forty](./image/40.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![fortyone](./image/41.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
+![fortytwo](./image/42.png)
 
 sed -n '2,4{s/$/*/;p}' file23
-
-
+## OUTPUT
+![fortythree](./image/43.png)
 #Sorting File content
 cat > file21
 ```
@@ -323,7 +323,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![fortyfour](./image/44.png)
 
 cat > file22
 ```
@@ -337,12 +337,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![fortyfive](./image/45.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![fortysix](./image/46.png)
 
 cat < urllist.txt
 ```
@@ -360,7 +362,7 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-
+![fortyseven](./image/47.png)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
