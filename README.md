@@ -167,51 +167,50 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![sixteen](./image/16.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![seventeen](./image/17.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![eighteen](./image/18.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
-
+![nineteen](./image/19.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![twenty](./image/20.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![twentyone](./image/21.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-
+![twentytwo](./image/22.png)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![twentythree](./image/23.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![twentyfour](./image/24.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![twentyfive](./image/25.png)
 
 egrep l{2} newfile
 ## OUTPUT
