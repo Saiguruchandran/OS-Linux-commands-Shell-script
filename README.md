@@ -97,7 +97,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![eight](./image/8.png)
 
 cat < newfile 
 ```
@@ -111,40 +111,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
-
+![nine](./image/9.png)
 
 grep hello newfile 
 ## OUTPUT
 
+![ten](./image/10.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![eleven](./image/11.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![twelve](./image/12.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![thirteen](./image/13.png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-
+![fourteen](./image/14.png)
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![fifteen](./image/15.png)
 
 cat < newfile 
 ```
