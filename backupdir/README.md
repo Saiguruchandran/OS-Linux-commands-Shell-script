@@ -367,13 +367,12 @@ cat urllist.txt | tr -d ' '
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![fortyeight](./image/48.png)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![fortynine](./image/49.png)
+
 
 mkdir backupdir
  
@@ -383,19 +382,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![fifty](./image/50.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![fiftyone](./image/51.png)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![fiftytwo](./image/52.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![fiftythree](./image/53.png)
+
  
 # Shell Script
 ```
@@ -405,7 +404,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![fiftyfour](./image/54.png)
+
  
 cat << stop > herecheck.txt
 ```
@@ -417,7 +416,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![fiftyfive](./image/55.png)
+
 
 cat < scriptest.sh 
 ```bash
@@ -455,26 +454,24 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![fiftysix](./image/56.png)
+
  
 ls file1
 ## OUTPUT
-![fiftyseven](./image/57.png)
 
 echo $?
 ## OUTPUT 
-![fiftyeight](./image/58.png)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- ![fiftynine](./image/59.png)
+ 
 abcd
  
 echo $?
  ## OUTPUT
- ![fiftynine](./image/59.png)
+
 
  
 # mis-using string comparisons
@@ -505,8 +502,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-## OUTPUT
-![sixty](./image/60.png)
+##OUTPUT
 
 
 
@@ -514,7 +510,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![sixtyone](./image/61.png)
+
 
 # check file ownership
 cat < psswdperm.sh 
@@ -541,7 +537,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![sixtytwo](./image/62.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -587,7 +583,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![sixtythree](./image/63.png)
+
 
 
 # using numeric test comparisons
@@ -630,8 +626,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-## OUTPUT
-![sixtyfour](./image/64.png)
+##OUTPUT
+
 # check if a file
 cat > ifnested.sh 
 ```bash
