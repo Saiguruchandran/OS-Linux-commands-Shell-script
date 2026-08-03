@@ -960,7 +960,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![seventyfive](./image/75.png)
 
  cat exread1.sh
 ```bash
@@ -972,7 +972,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+![seventysix](./image/76.png)
 
 
 $ ./exread1.sh 
@@ -993,6 +993,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+![seventyseven](./image/77.png)
  ./funcex.sh 
 
  
@@ -1010,6 +1011,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![seventyeight](./image/78.png)
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1040,6 +1042,7 @@ done
 set +x
 ```
 ## OUTPUT
+![seventynine](./image/79.png)
  ./argshift.sh 1 2 3
  
  
@@ -1072,7 +1075,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![eighty](./image/80.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1100,6 +1103,6 @@ fi
 ```
 ## OUTPUT 
 
-
+![eightyone](./image/81.png)
 # RESULT:
 The Commands are executed successfully.
