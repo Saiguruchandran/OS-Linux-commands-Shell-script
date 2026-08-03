@@ -214,12 +214,12 @@ egrep 'Linux.*World' newfile
 
 egrep l{2} newfile
 ## OUTPUT
-
+![twentysix](./image/26.png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![twentyseven](./image/27.png)
 
 cat > file23
 ```
@@ -237,43 +237,43 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![twentyeight](./image/28.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+[!twentyeight](./image/29.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+[!thirty](./image/30.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![thirtyone](./image/31.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-
+![thirtytwo](./image/32.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![thirtythree](./image/33.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-
+![thirtyfour](./image/34.png)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![thirtyfive](./image/35.png)
 
 
 seq 10 
