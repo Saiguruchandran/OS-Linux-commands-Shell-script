@@ -56,14 +56,14 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![three](./image/3.png)
 comm file1 file2
  ## OUTPUT
-
+![four](./image/4.png)
  
 diff file1 file2
 ## OUTPUT
-
+![five](./image/5.png)
 
 #Filters
 
@@ -87,12 +87,12 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![six](./image/6.png)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![seven](./image/7.png)
 
 
 cut -d "|" -f 2 file22
